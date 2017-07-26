@@ -9,7 +9,6 @@ http.createServer(function (req, res) {
 }).listen(port);
 
 
-
 var tools = require('./steps');
 console.log(typeof tools.foo);
 

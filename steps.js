@@ -7,6 +7,7 @@ module.exports = {
 			var Converter = require("csvtojson").Converter;
 			// create a new converter object
 			var converter = new Converter({});
+		
 
 			// call the fromFile function which takes in the path to your 
 			// csv file as well as a callback function
@@ -22,12 +23,21 @@ module.exports = {
 			    
 			    // log our json to verify it has worked
 			    console.log(json);
+			  
+			    var port2 = (process.env.PORT || process.env.VCAP_APP_PORT || 8889);
+
+			    var app = http.createServer(function(req,res){
+			        res.setHeader('Content-Type', 'application/json');
+			        res.end('value = ' + JSON.stringify(json));
+			    }).listen(port2);
 			    
 
 			});
 			
 			
-			
+		
+			    
+			    
 			
 		  },
 		  
