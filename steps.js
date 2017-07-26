@@ -95,7 +95,7 @@ module.exports = {
 			    switch(pathname){
 			        case '/quote.json':
 			        	res.setHeader('Content-Type', 'application/json');
-				        res.end('value = ' + JSON.stringify(json));
+				        res.end(JSON.stringify(json));
 			        break;
 			        case '/quote.xml':
 			        	res.setHeader('Content-Type', 'application/xml');
