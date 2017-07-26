@@ -1,6 +1,6 @@
 var http = require('http');
 
-var port = (process.env.PORT || process.env.VCAP_APP_PORT || 8888);
+var port = (process.env.PORT || process.env.VCAP_APP_PORT || 8889);
 
 
 http.createServer(function (req, res) {

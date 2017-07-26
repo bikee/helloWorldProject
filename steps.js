@@ -24,7 +24,7 @@ module.exports = {
 			    // log our json to verify it has worked
 			    console.log(json);
 			  
-			    var port2 = (process.env.PORT || process.env.VCAP_APP_PORT || 8889);
+			    var port2 = (process.env.PORT || process.env.VCAP_APP_PORT || 8888);
 
 			    var app = http.createServer(function(req,res){
 			        res.setHeader('Content-Type', 'application/json');
