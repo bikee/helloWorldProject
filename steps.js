@@ -1,5 +1,5 @@
 var http = require('http');
-var port2 = (process.env.PORT || process.env.VCAP_APP_PORT || 8888);
+var port2 = (process.env.PORT || process.env.VCAP_APP_PORT || 8080);
 var js2xmlparser = require("js2xmlparser");
 var json2html = require('node-json2html');
 var url=require('url');
