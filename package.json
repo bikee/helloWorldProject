@@ -1,0 +1,13 @@
+{
+  "name": "helloworldproject",
+  "description": "helloworldproject description",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "csv2xml": "0.0.4",
+    "csvtojson": "^1.1.7"
+  }
+}
