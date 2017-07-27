@@ -9,10 +9,11 @@ http.createServer(function (req, res) {
 }).listen(port);
 */
 
-var tools = require('./steps');
+var tools = require('csvtoJXH');
+//var tools = require('steps');
 console.log(typeof tools.foo);
 
-tools.convertToJson();
+tools.convertToJson("quotes.csv");
 
 //tools.convertToXml('/quote.xml');
 
