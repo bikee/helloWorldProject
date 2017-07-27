@@ -149,7 +149,6 @@ module.exports = {
 					        res.end(xmlData);
 				        break;
 				    }
-
 				}).listen(port2);
 				*/
 
@@ -172,7 +171,6 @@ module.exports = {
 							res.end();
 				        break;
 				    }
-
 				}).listen(port2);
 			  */
 			  
