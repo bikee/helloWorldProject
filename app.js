@@ -11,7 +11,7 @@ http.createServer(function (req, res) {
 
 var tools = require('csvtoJXH');
 //var tools = require('steps');
-console.log(typeof tools.foo);
+console.log("Started");
 
 tools.convertToJson("quotes.csv");
 
