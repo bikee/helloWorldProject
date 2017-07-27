@@ -10,6 +10,7 @@
     "csv2xml": "0.0.4",
     "csvtojson": "^1.1.7",
     "js2xmlparser": "^3.0.0",
-    "node-json2html": "^1.1.1"
+    "node-json2html": "^1.1.1",
+    "node-csvtojxh": "^1.0.0"
   }
 }
